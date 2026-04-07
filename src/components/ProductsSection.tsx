@@ -3,6 +3,7 @@ import { Reveal } from "@/hooks/useScrollReveal";
 import aloVideo from "@/assets/smart home/new curtain.mp4";
 import lightsImg from "@/assets/smart home/unwatermarked_lights_transparent.webp";
 import switchImg from "@/assets/smart home/switch_1_transparent.webp";
+import pdlcVid from "@/assets/smart home/pdlc.mp4";
 
 const products = [
   {
@@ -25,21 +26,22 @@ const products = [
     borderColor: "border-transparent text-transparent",
   },
   {
-    id: "film",
-    emoji: "🛡️",
-    name: "PDLC SMART FILM",
-    description: "Switchable privacy glass — clear or frosted instantly with a single tap.",
-    image: null,
-    bgColor: "bg-[#E6F4EA] dark:bg-[#E6F4EA]/10", // Google Green tint
-    borderColor: "border-transparent text-transparent",
-  },
-  {
     id: "light",
     emoji: "💡",
     name: "SMART LIGHT ECOSYSTEM",
     description: "Dimmable, color-adjustable bulbs for every mood. Seamlessly integrate with routines and sensors.",
     image: lightsImg,
     bgColor: "bg-[#FFF8E1] dark:bg-[#FFF8E1]/10", // Google Yellow tint
+    borderColor: "border-transparent text-transparent",
+  },
+  {
+    id: "film",
+    emoji: "🛡️",
+    name: "PDLC SMART FILM",
+    description: "Switchable privacy glass — clear or frosted instantly with a single tap.",
+    video: pdlcVid,
+    image: null,
+    bgColor: "bg-[#E6F4EA] dark:bg-[#E6F4EA]/10", // Google Green tint
     borderColor: "border-transparent text-transparent",
   }
 ];
